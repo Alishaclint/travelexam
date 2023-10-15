@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav:hover{
+  color: red;
+}
+
+#logo{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#guide{
+    color: black;
+    font-size: 20px;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: url(./images/background-image.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#para{
+    font-size: 65px;
+
+}
+#para1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#modal-button{
+    background-color: blueviolet;
+    color: white;
+}
+
+#honeymoon-package{
+    text-align: justify;
+}
+
+#hmp:hover{
+    box-shadow: 5px 5px 10px 10px #938d8d ;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background:url(./images/Taj\ Mahal\ &\ Agra\ by\ Express\ Train\ Day\ Tour\ from\ Jaipur.jpg)
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #features{
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #bike{
+    border-radius: 15px;
+  
+  }
+
+#review{
+  font-family: 'Italianno', cursive;
+  color: rgb(82, 4, 156);
+}
+
+#review-img{
+  width: 5%;
+}
+
+
